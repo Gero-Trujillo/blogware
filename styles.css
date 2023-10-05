@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    color: #000;
+    background: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.nav-main {
+    background: #000;
+    font-size: 30px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.nav-main ul{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-main ul li a {
+    margin: 0 15px;
+}
+
+.nav-main a:hover {
+    color: yellow;
+}
+
+.nav-logo {
+    font-size: 70px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(yellow,#000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: yellow;
+    transition: all 0.3s ease;
+}
+
+.nav-logo:hover {
+    font-size: 80px;
+
+}
+
+.inicio-content {
+    margin: 5px;
+    float: left;
+    width: 80%;
+    height: 900px;
+    background: url("img/inicio-article.jpg") no-repeat center center/cover;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.inicio-content h1 {
+    color: #ffbb00;
+    padding: 10px;
+}
+
+.inicio-content a h1:hover {
+    color: #ffdf88;
+}
+
+
+aside {
+    margin: 5px;
+    float: left;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+}
+
+aside img {
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+aside a {
+    color: #000;
+}
+
+aside img:hover {
+    width: 105%;
+}
+
+aside h3:hover{
+    color: #666666;
+}
+
+.clearfix{
+    clear: both;
+}
+
+footer {
+    background: #000;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+
+
